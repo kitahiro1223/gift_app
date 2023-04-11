@@ -13,7 +13,7 @@ create table users(
     email text unique not null,
     password text not null,
     token text,
-    token_public text,
+    token_ts text,
     role integer default 0,
 );
 */
